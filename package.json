@@ -1,0 +1,19 @@
+{
+  "name": "1212",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happy0211/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happy0211/hello-world/issues"
+  },
+  "homepage": "https://github.com/happy0211/hello-world#readme"
+}
