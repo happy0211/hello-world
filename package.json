@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/happy0211/hello-world/issues"
   },
-  "homepage": "https://github.com/happy0211/hello-world#readme"
+  "homepage": "https://github.com/happy0211/hello-world#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "faker": "^4.1.0"
+  }
 }
