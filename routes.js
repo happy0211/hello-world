@@ -8,7 +8,7 @@ var appRouter = function (app) {
     res.status(200).send({ message: 'Welcome to our restful API' });
   });
 
-  app.get("/student", function (req, res) {
+  app.get("api/user", function (req, res) {
     var data = ({
       firstName: faker.name.firstName(),
       lastName: faker.name.lastName(),
@@ -19,7 +19,7 @@ var appRouter = function (app) {
     res.status(200).send(data);
   });
 
- app.get("/students/:num", function (req, res) {
+ app.get("/api/students/:num", function (req, res) {
    var students = [];
    var num = req.params.num;
 
